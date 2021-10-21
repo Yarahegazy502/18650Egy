@@ -21,9 +21,9 @@ class Footer extends Component{
                                 </ul>
                             </nav>
                         </div>
-                        <div className="col-md-6 d-sm-flex align-item-start-sm">
+                        <div className="col-md-6 ">
                             <div className="foot-content">
-                                <img src={logo} alt="" />
+                                <img src={logo} alt=""/>
                                 <h3>FOLLOW US ON</h3>
                                 <div className="icons">
                                     <FaFacebookSquare className="i"/>

@@ -25,10 +25,24 @@ ul li a .fae{
 }
 .foot-content{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: end;
     flex-direction: column;
 
+}
+
+@media (max-width:767px){
+    .foot-content{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 40px;
+    } 
+}
+.foot-content img{
+    margin: 0;
+    width: 240px;
 }
 .foot-content h3{
     font-size: 36px;
