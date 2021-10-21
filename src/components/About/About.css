@@ -1,0 +1,27 @@
+.about{
+    background-color: #f8f9fa;
+    
+}
+/* .about-contact{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+} */
+
+.atext h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.about ul li{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.rounded {
+    border-radius: 1.25rem!important;
+}
+.about p{
+   margin-bottom: 25px;
+   margin-top: 20px;
+   color: #252829;
+}
