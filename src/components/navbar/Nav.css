@@ -32,6 +32,15 @@
 .logo{
     width: 140px;
 }
+.navIcon{
+    color: #fff;
+    font-size: 30px;
+    margin: 5px;
+    transition: all .3s ease-in-out;
+}
+.navIcon:hover{
+    color:#FDC134
+}
 .menu{
     color: #fff;
 }

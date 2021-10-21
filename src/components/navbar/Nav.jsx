@@ -3,7 +3,7 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../imgs/logo.png";
 import "../navbar/Nav.css"
-import {FaAlignJustify} from 'react-icons/fa/index';
+import {FaAlignJustify,FaFacebookSquare,FaInstagramSquare} from 'react-icons/fa/index';
 
 class Nav extends Component{
     render(){
@@ -30,7 +30,10 @@ class Nav extends Component{
       <li class="nav-item">
         <Link class="nav-link" to="/where_to_buy">Where to buy</Link>
       </li>
+      <li className="nav-item"><FaFacebookSquare className="navIcon"/></li>
+      <li className="nav-item "><FaInstagramSquare className="navIcon"/></li>
     </ul>
+    
   </div>
 </nav>
             </div>
